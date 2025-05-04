@@ -1,8 +1,8 @@
 function changeTextColor() {
   let texto = document.getElementById('saida');
   if (texto instanceof HTMLParagraphElement) {
-    let randomColor = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
-    texto.style.color = randomColor;
+    let cor = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+    texto.style.color = cor;
   }
 }
 
