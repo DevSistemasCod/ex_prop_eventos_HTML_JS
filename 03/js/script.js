@@ -1,4 +1,4 @@
-// Seleciona o elemento <h1> pelo ID
+// Seleciona o elemento p pelo Id
 let texto = document.getElementById('texto');
 
 if (texto instanceof HTMLParagraphElement) {
